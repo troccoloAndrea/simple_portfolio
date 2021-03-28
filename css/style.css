@@ -1,3 +1,103 @@
+/* font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Poppins', sans-serif; */
 *{
-    color:red;
+    padding:0;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+}
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+h3{
+    font-size: 3rem;
+}
+
+/*
+    NAVBAR
+*/
+.navbar{
+    background-color: #1C2AAF;
+    padding: 20px 0px 20px 0px;
+}
+.nav-link{
+    color: white !important;
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    margin-left: 20px;
+    position:relative;
+    transition:0.5s;
+}
+.nav-link:hover{
+    color:#fff !important;
+}
+.nav-link:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .nav-link:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+/*
+    HEADER
+*/
+header{
+    background-color: #1C2AAF;
+    color:#fff;
+    padding-top:100px
+}
+main{
+    background-color: #1C2AAF;
+    color:#fff;
+}
+.jumbotron{
+    padding: 100px 0px 100px 0px;
+}
+.jumbotron p, .card p{
+    color:#eef0ff;
+    margin-top:20px;
+    font-size: 0.9rem;
+    line-height: 2;
+}
+.icon-box{
+    display: flex;
+    flex-direction: row;
+   margin-top:20px;
+}
+.icon-box a{
+    color: #eef0ff !important;
+    margin-right: 15px;
+    font-size: 1.2rem;
+
+}
+.section-1{
+    padding:20px 0px 20px 0px;
+    min-height: 500px;
+    position: relative;
+}
+.card{
+    background-color: #3646e5;
+    border-radius: 50px;
+    padding: 50px 50px 50px 50px;
+    width: 75%;
+    margin: 0;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
