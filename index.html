@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="">
     <meta name="description" content="">
     <meta name="theme-color" content="">
 
     <!--
-        Inclusione fontawesome, google fonts, bootstrap e css
+        Inclusione fontawesome, google fonts, bootstrap, librerie e css
     -->
     <script src="https://kit.fontawesome.com/aeec0b6e94.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -25,18 +26,20 @@
 
 <body>
     <script>
-        window.location = '/coming-soon.html';
+        //window.location = '/coming-soon.html';
     </script>
     <header>
-        <nav class="navbar navbar-expand-lg container fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-lg  fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/Risorsa 3.svg" height="67" width="67" />
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fas fa-bars icon-toggler"></i>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav ms-auto ">
                         <li class="nav-item">
                             <a class="nav-link" href="#andrea">Andrea</a>
                         </li>
@@ -55,9 +58,9 @@
         </nav>
         <div class="jumbotron container" id="andrea">
             <div class="row">
-                <div class="col-md-8">
-                    <label>do with passion</label>
-                    <h1>Design & Develop <br />Beautiful App </h1>
+                <div class="col-md-7">
+                    <label>Hi there!</label>
+                    <h1>I'm a Full-Stack <br />Web & App developer </h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
                         Dignissimos tenetur nulla quia voluptatum quas deserunt.
                     </p>
@@ -68,34 +71,137 @@
                         <a href=""><i class="fab fa-github"></i></a>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <p>logo</p>
+                <div class="col-md-5">
+                    <img src="img/shape-1.svg" height="65%" />
                 </div>
             </div>
         </div>
     </header>
     <main>
-        <section class="section-1 container">
+        <section class="section-1">
+            <!-- <img src="img/shape-2.svg" class="shape-2"> -->
             <div class="card">
-                <label>UI Designer & Web Developer</label>
-                <h2>hi, my name is <br/> Andrea Troccolo</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-                    Dignissimos tenetur nulla quia voluptatum quas deserunt.<br/>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-                    Dignissimos tenetur nulla quia voluptatum quas deserunt.
+                <label>Full-Stack developer</label>
+                <h2>hi, my name is <br /> Andrea Troccolo</h2>
+                <p>Sono uno studente di Informatica per la comunicazione digitale presso l'Università degli studi di
+                    Milano e una delle mie passioni è lo sviluppo di siti web e applicazioni. <br />
+                    Sono una persona molto intraprendente, ambiziosa e mi piace molto lavorare in team.
                 </p>
             </div>
         </section>
-        <section class="section-2 container">
-            <h3>Skills</h3>
-        </section>
+        <div class="bg-whitesmoke inverted-border-radius">
+            <section class="section-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="img/shape-4.svg" class="shape-3">
+                            <h3>skills</h3>
+                            <p>Dal 2017 programmo e realizzo progetti di ogni tipo in ambito digital. <br/> Sperimentando su molti progetti le mie competenze sono <strong>sviluppate orizzontalmente</strong> sulla maggior parte delle tecnologie web, app e database.</p>
+                            <div class="icon-box">
+                                <img src="img/tools/html.png">
+                                <img src="img/tools/js.png">
+                                <img src="img/tools/node.png">
+                                <img src="img/tools/react.png">
+                                <img src="img/tools/csharp.png">
+                                
+                            </div>
+                            <div class="icon-box">
+                                <img src="img/tools/dotnet.png">
+                                <img src="img/tools/xamarin-logo-348B1EB629-seeklogo.com.png">
+                                <img src="img/tools/wp.png">
+                                <img src="img/tools/php.svg">
+                                <img src="img/tools/MySQL-Logo.wine.png">
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="skill-box">
+                                <div class="skill-card">
+                                    <h3>80<span class="percent">%</span></h3>
+                                    <label>HTML & CSS</label>
+                                </div>
+                                <div class="skill-card">
+                                    <h3>60<span class="percent">%</span></h3>
+                                    <label>Node.JS</label>
+                                </div>
+                                <div class="skill-card">
+                                    <h3>60<span class="percent">%</span></h3>
+                                    <label>React.JS</label>
+                                </div>
+                                <div class="skill-card">
+                                    <h3>70<span class="percent">%</span></h3>
+                                    <label>C# .NET</label>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <div class="skill-card">
+                                    <h3>55<span class="percent">%</span></h3>
+                                    <label>ASP.NET</label>
+                                </div>
+                                <div class="skill-card">
+                                    <h3>60<span class="percent">%</span></h3>
+                                    <label>Xamarin</label>
+                                </div>
+                                <div class="skill-card">
+                                    <h3>50<span class="percent">%</span></h3>
+                                    <label>Wordpress</label>
+                                </div>
+                                <div class="skill-card">
+                                    <h3>70<span class="percent">%</span></h3>
+                                    <label>php & MySql</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section-3">
+                <div class="container">
+                    <div class="align-right">
+                        <img src="img/shape-4.svg" class="shape-3">
+                        <h2>portfolio</h2>
+                        <p>Dai uno sguardo ai progetti che ho realizzato in questi anni.</p>
+                    </div>                    
+                    <div class="row">
+                        <div class="col-md-8">
+                            <img src="img/shape-4.svg" class="shape-3">
+                            <h3>Adda di Leonardo</h3>
+                            <p>L'obiettivo del progetto, sviluppato insieme a un team di 3 sviluppatori era quello di sviluppare un'applicazione multipiattaforma per dispositivi mobili in grado di fruire contenuti testuali visivi ed audiovisi, riguardanti il percorso di Leonardo da Vinci sul Fiume Adda.<br/>
+                            Nel progetto ho avuto il ruolo, oltre che sviluppatore full-stack, di team leader. Mi sono occupato di organizzare il progetto e di interfacciarmi con i committenti.</p>
+                            <ul>
+                                <li>Scarica l'app</li>
+                                <li><i class="fab fa-google-play"></i> Play Store</li>
+                                <li><i class="fab fa-app-store"></i> Apple Store</li>
+                            </ul>
+                            <p><strong>Partners:</strong></p>
+                            <div class="icon-box">
+                                <img src="img/portfolio/progetto_adda/partners/Micron_Technology_logo.svg.png">
+                                <img src="img/portfolio/progetto_adda/partners/logo_polimi.png">
+                                <img src="img/portfolio/progetto_adda/partners/fpo_logo_rgb.png">
+                                <img src="img/portfolio/progetto_adda/partners/marconi.png">
+                            </div>
+                            <p class="mt-3"><i>Altri partners: Liceo Lussana Bergamo, Ecomuseo Adda di Leonardo</i></p>
+                            
+                            <a href="https://www.fondazionepolitecnico.it/progetti/stem/ladda-di-leonardo/" target="blank">Fondazione Politecnico di Milano</a><br/>
+                            <a href="https://www.ecomuseoaddadileonardo.it/adda-di-leonardo/" target="blank">EcoMuseo Adda di Leonardo</a>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/portfolio/progetto_adda/app-mockup.jpg" class="img-fluid"/>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
-
+        <div style="height: 300px;">
+        </div>
     </footer>
     <!-- 
         Bootstrap JavaScript Bundle with Popper 
     -->
+    <script src="js/circleDonutChart.js"></script>
+    <script src="js/skills.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
     </script>
