@@ -130,6 +130,7 @@ main {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .icon-box a {
@@ -186,7 +187,7 @@ main {
 
 .bg-whitesmoke p,   
 .bg-white p,
-.bg-white a, .icon-box a {
+.bg-white a {
     text-decoration: none;
     color: #5c6086 !important;
     font-size: 0.9rem;
