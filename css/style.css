@@ -245,11 +245,11 @@ main {
 
     background-color: transparent;
     right: 0px;
-    top: -150px;
-    height: 150px;
+    top: -200px;
+    height: 200px;
     width: 100px;
     border-bottom-right-radius: 100px;
-    box-shadow: 8px 60px 0 0 #fff;
+    box-shadow: 0px 100px 0 0 #fff;
 }
 
 section .shape-3,
@@ -477,9 +477,12 @@ footer span {
     transform: scale(1.1);
 }
 
+.section-3 .wrap-rev {
+    flex-wrap: wrap-reverse;
+}
 
 @media (max-width: 600px) {
-    
+
 
     h1,
     h2,
@@ -516,11 +519,47 @@ footer span {
         z-index: 0;
         transform: rotate(80deg);
     }
+
     .section-1 {
         padding: 120px 0px 0px 0px;
     }
+
     .skill-bars {
-        padding: 0px 0px;
+        padding: 0px 0px !important;
+        width: 100% !important;
+        display: block;
+        margin-right: 0;
+        margin-left: auto;
+        margin-top: 30px !important;
+        margin-bottom: auto;
+    }
+
+    .bg-whitesmoke .icon-box img {
+        height: 40px;
+        margin-right: 20px;
+        margin-top: 20px;
+
+    }
+
+    .row>div {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .align-right p {
         width: 100%;
+        display: inline-block;
+    }
+
+    .shape-3-abs {
+        position: absolute;
+        width: 50%;
+        transform: rotate(20deg);
+        bottom: -3%;
+        left: -13%;
+    }
+    .progetto {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
