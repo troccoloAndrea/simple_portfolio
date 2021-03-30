@@ -1,2 +1,2 @@
 # simple_portfolio
-simple personle site in html and css for Start2Impact project
+simple personal site in html and css for Start2Impact project
