@@ -487,97 +487,140 @@ footer span {
     flex-wrap: wrap-reverse;
 }
 
-@media (max-width: 600px) {
-
-
-    h1,
-    h2,
-    h3,
-    h4 {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 700;
-        font-size: 2.9rem;
-        letter-spacing: 1px;
-        line-height: 1.4;
-    }
-
-    h3 {
-        font-size: 2rem;
-    }
-
-    h4 {
-        font-size: 1.5rem;
-    }
-
-    .jumbotron {
-        padding-top: 0px !important;
-        margin-right: 15px;
-        margin-left: 15px;
-    }
-
-    .jumbotron img {
-        display: none;
-    }
-
-    .card {
-        width: 90%;
-        padding: 25px 25px 25px 25px;
-    }
-
+@media (max-width: 1200px) {
     .shape-2-abs {
         position: absolute;
         width: 40%;
-        top: 3%;
+        top: 7%;
         left: -7%;
         z-index: 0;
         transform: rotate(80deg);
     }
 
-    .section-1 {
-        padding: 120px 0px 0px 0px;
-    }
-
-    .skill-bars {
-        padding: 0px 0px !important;
-        width: 100% !important;
-        display: block;
-        margin-right: 0;
-        margin-left: auto;
-        margin-top: 30px !important;
-        margin-bottom: auto;
-    }
-
-    .bg-whitesmoke .icon-box img {
-        height: 40px;
-        margin-right: 20px;
-        margin-top: 20px;
-
-    }
-
-    .row>div {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .align-right p {
-        width: 100%;
-        display: inline-block;
-    }
-
     .shape-3-abs {
         position: absolute;
-        width: 50%;
+        width: 35%;
         transform: rotate(20deg);
-        bottom: -3%;
-        left: -13%;
     }
 
-    .progetto {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
+    @media (max-width: 1000px) {
+        .section-2 {
+            margin-top: 100px;
+            position: relative;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
 
-    .bg-white {
-        padding-bottom: 0px !important;
+        .skill-bars {
+            padding: 0px 0px !important;
+            width: 100% !important;
+            display: block;
+            margin-right: 0;
+            margin-left: auto;
+            margin-top: 30px !important;
+            margin-bottom: auto;
+        }
+
     }
 }
+    @media (max-width: 770px) {
+        .jumbotron {
+            padding-top: 20px !important;
+            margin-right: 15px;
+            margin-left: 15px;
+        }
+
+        .jumbotron img {
+            display: none;
+        }
+
+        .card {
+            width: 90%;
+            padding: 25px 25px 25px 25px;
+        }
+
+        .shape-3-abs {
+            position: absolute;
+            width: 35%;
+            transform: rotate(20deg);
+            bottom: -23%;
+            left: -10%;
+        }
+    }
+
+    @media (max-width: 600px) {
+
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 2.9rem;
+            letter-spacing: 1px;
+            line-height: 1.4;
+        }
+
+        h3 {
+            font-size: 2rem;
+        }
+
+        h4 {
+            font-size: 1.5rem;
+        }
+
+
+        .card {
+            width: 90%;
+            padding: 25px 25px 25px 25px;
+        }
+
+        .shape-2-abs {
+            position: absolute;
+            width: 40%;
+            top: 3%;
+            left: -7%;
+            z-index: 0;
+            transform: rotate(80deg);
+        }
+
+        .section-1 {
+            padding: 120px 0px 0px 0px;
+        }
+
+
+        .bg-whitesmoke .icon-box img {
+            height: 40px;
+            margin-right: 20px;
+            margin-top: 20px;
+
+        }
+
+        .row>div {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .align-right p {
+            width: 100%;
+            display: inline-block;
+        }
+
+        .shape-3-abs {
+            position: absolute;
+            width: 32%;
+            transform: rotate(20deg);
+            bottom: -9%;
+            left: -13%;
+        }
+
+        .progetto {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .bg-white {
+            padding-bottom: 0px !important;
+        }
+    }
