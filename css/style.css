@@ -6,6 +6,12 @@ font-family: 'Poppins', sans-serif; */
     font-weight: 300;
 }
 
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -503,12 +509,19 @@ footer span {
         font-size: 1.5rem;
     }
 
+    .jumbotron {
+        padding-top: 0px !important;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
     .jumbotron img {
         display: none;
     }
 
     .card {
         width: 90%;
+        padding: 25px 25px 25px 25px;
     }
 
     .shape-2-abs {
@@ -558,8 +571,13 @@ footer span {
         bottom: -3%;
         left: -13%;
     }
+
     .progetto {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    .bg-white {
+        padding-bottom: 0px !important;
     }
 }
