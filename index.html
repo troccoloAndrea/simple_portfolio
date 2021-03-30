@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="">
-    <meta name="description" content="">
-    <meta name="theme-color" content="">
+    <meta name="title" content="Andrea Troccolo | Full-Stack Web & App developer">
+    <meta name="description" content="Sviluppo siti web e applicazioni mobile">
+    <meta name="theme-color" content="#1c2aaf">
 
     <!--
         Inclusione fontawesome, google fonts, bootstrap, librerie e css
@@ -20,14 +20,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/progress_bar.css">
 
     <title>Andrea Troccolo | portfolio</title>
 </head>
 
 <body>
-    <script>
-        //window.location = '/coming-soon.html';
-    </script>
     <header>
         <nav class="navbar navbar-expand-lg  fixed-top">
             <div class="container">
@@ -44,6 +42,9 @@
                             <a class="nav-link" href="#andrea">Andrea</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="#services">Servizi</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
@@ -56,20 +57,20 @@
                 </div>
             </div>
         </nav>
+        <span class="anchor" id="andrea"></span>
         <div class="jumbotron container" id="andrea">
             <div class="row">
                 <div class="col-md-7">
                     <label>Hi there!</label>
                     <h1>I'm a Full-Stack <br />Web & App developer </h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
-                        Dignissimos tenetur nulla quia voluptatum quas deserunt.
-                    </p>
+                    <a href="#about"><button class="btn-blu"> read about me </button></a>
                     <div class="icon-box">
                         <a href=""><i class="fab fa-facebook-f"></i></a>
                         <a href=""><i class="fab fa-instagram"></i></a>
                         <a href=""><i class="fab fa-linkedin-in"></i></a>
                         <a href=""><i class="fab fa-github"></i></a>
                     </div>
+
                 </div>
                 <div class="col-md-5">
                     <img src="img/shape-1.svg" height="65%" />
@@ -78,32 +79,70 @@
         </div>
     </header>
     <main>
+
         <section class="section-1">
-            <!-- <img src="img/shape-2.svg" class="shape-2"> -->
             <div class="card">
                 <label>Full-Stack developer</label>
                 <h2>hi, my name is <br /> Andrea Troccolo</h2>
-                <p>Sono uno studente di Informatica per la comunicazione digitale presso l'Università degli studi di
-                    Milano e una delle mie passioni è lo sviluppo di siti web e applicazioni. <br />
-                    Sono una persona molto intraprendente, ambiziosa e mi piace molto lavorare in team.
+                <p>Ciao! Sono un ragazzo di 19 anni diplomato in informatica. Attualmente studio "Informatica per la comunicazione digitale" presso l'Università degli Studi di Milano.<br/>
+                    Programmo dal 2017 e fin da subito mi sono appassionato a questo mondo anche grazie ai numerosi progetti scolastici che ho sviluppato. <br/>
+                    Amo molto lavorare in team insieme a persone che condividono la mia passione. <br/>
+                    Mi piace imparare sempre cose nuove e sperimetare diverse tecnologie. 
+
                 </p>
             </div>
+            <img src="img/shape-2.svg" class="shape-2-abs">
         </section>
+        
+        <section class="section-servizi container">
+            <span class="anchor" id="services"></span>
+            <img src="img/shape-2.svg" class="shape-3">
+            <h3>Servizi</h3>
+            <p>Grazie ai numerosi progetti che ho sviluppato ho maturato esperienza nel campo dello sviluppo web & app full-stack.<br/> Posso offrirti questi servizi, se sei interessato contattami subito!</p>    
+            <div class="row">
+                    <div class="col-md-4">
+                        <div class="service-card">
+                            <h3><i class="fas fa-drafting-compass"></i> Front end</h3>
+                            <p>Sviluppo grafica di landing page o semplici siti web.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-card">
+                            <h3><i class="fas fa-sitemap"></i> Back end</h3>
+                            <p>Sviluppo di API rest con connessione a DataBase e scambio di dati interoperabile.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-card">
+                            <h3><i class="fas fa-window-restore"></i> Full stack</h3>
+                            <p>Realizzo web app completi di database, logica lato server e interfaccia grafica front-end.</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-center"><a href="#contatti" ><button  class="btn-blu"> contattami </button></a></p>
+        </section>
+
+
         <div class="bg-whitesmoke inverted-border-radius">
+
             <section class="section-2">
+                <span class="anchor" id="skills"></span>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4">
-                            <img src="img/shape-4.svg" class="shape-3">
+                            <img src="img/shape-4.svg" class="shape-4">
                             <h3>skills</h3>
-                            <p>Dal 2017 programmo e realizzo progetti di ogni tipo in ambito digital. <br/> Sperimentando su molti progetti le mie competenze sono <strong>sviluppate orizzontalmente</strong> sulla maggior parte delle tecnologie web, app e database.</p>
+                            <p>Dal 2017 programmo e realizzo progetti di ogni tipo in ambito digital. <br />
+                                Sperimentando su molti progetti le mie competenze sono <strong>sviluppate
+                                    orizzontalmente</strong> sulla maggior parte delle tecnologie web, app e database.
+                            </p>
                             <div class="icon-box">
                                 <img src="img/tools/html.png">
                                 <img src="img/tools/js.png">
                                 <img src="img/tools/node.png">
                                 <img src="img/tools/react.png">
                                 <img src="img/tools/csharp.png">
-                                
+
                             </div>
                             <div class="icon-box">
                                 <img src="img/tools/dotnet.png">
@@ -114,84 +153,202 @@
                             </div>
                         </div>
                         <div class="col-lg-8">
-                            <div class="skill-box">
-                                <div class="skill-card">
-                                    <h3>80<span class="percent">%</span></h3>
-                                    <label>HTML & CSS</label>
+                            <div class="skill-bars">
+                                <div class="bar">
+                                    <div class="info">
+                                        <span>HTML & CSS</span>
+                                    </div>
+                                    <div class="progress-line html">
+                                        <span></span>
+                                    </div>
                                 </div>
-                                <div class="skill-card">
-                                    <h3>60<span class="percent">%</span></h3>
-                                    <label>Node.JS</label>
+                                <div class="bar">
+                                    <div class="info">
+                                        <span>JavaScript & Node.JS</span>
+                                    </div>
+                                    <div class="progress-line js">
+                                        <span></span>
+                                    </div>
                                 </div>
-                                <div class="skill-card">
-                                    <h3>60<span class="percent">%</span></h3>
-                                    <label>React.JS</label>
+                                <div class="bar">
+                                    <div class="info">
+                                        <span>React.JS</span>
+                                    </div>
+                                    <div class="progress-line react">
+                                        <span></span>
+                                    </div>
                                 </div>
-                                <div class="skill-card">
-                                    <h3>70<span class="percent">%</span></h3>
-                                    <label>C# .NET</label>
+                                <div class="bar">
+                                    <div class="info">
+                                        <span>C# & ASP.NET</span>
+                                    </div>
+                                    <div class="progress-line csharp">
+                                        <span></span>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="skill-box">
-                                <div class="skill-card">
-                                    <h3>55<span class="percent">%</span></h3>
-                                    <label>ASP.NET</label>
+                                <div class="bar">
+                                    <div class="info">
+                                        <span>Xamarin</span>
+                                    </div>
+                                    <div class="progress-line xamarin">
+                                        <span></span>
+                                    </div>
                                 </div>
-                                <div class="skill-card">
-                                    <h3>60<span class="percent">%</span></h3>
-                                    <label>Xamarin</label>
+                                <div class="bar">
+                                    <div class="info">
+                                        <span>
+                                            Wordpress
+                                        </span>
+                                    </div>
+                                    <div class="progress-line wordpress">
+                                        <span></span>
+                                    </div>
                                 </div>
-                                <div class="skill-card">
-                                    <h3>50<span class="percent">%</span></h3>
-                                    <label>Wordpress</label>
-                                </div>
-                                <div class="skill-card">
-                                    <h3>70<span class="percent">%</span></h3>
-                                    <label>php & MySql</label>
+                                <div class="bar">
+                                    <div class="info">
+                                        <span>PHP & MySQL</span>
+                                    </div>
+                                    <div class="progress-line php">
+                                        <span></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <img src="img/shape-3.svg" class="shape-3-abs">
             </section>
+
+            <span class="anchor" id="portfolio"></span>
             <section class="section-3">
                 <div class="container">
                     <div class="align-right">
                         <img src="img/shape-4.svg" class="shape-3">
-                        <h2>portfolio</h2>
-                        <p>Dai uno sguardo ai progetti che ho realizzato in questi anni.</p>
-                    </div>                    
-                    <div class="row">
-                        <div class="col-md-8">
-                            <img src="img/shape-4.svg" class="shape-3">
-                            <h3>Adda di Leonardo</h3>
-                            <p>L'obiettivo del progetto, sviluppato insieme a un team di 3 sviluppatori era quello di sviluppare un'applicazione multipiattaforma per dispositivi mobili in grado di fruire contenuti testuali visivi ed audiovisi, riguardanti il percorso di Leonardo da Vinci sul Fiume Adda.<br/>
-                            Nel progetto ho avuto il ruolo, oltre che sviluppatore full-stack, di team leader. Mi sono occupato di organizzare il progetto e di interfacciarmi con i committenti.</p>
-                            <ul>
-                                <li>Scarica l'app</li>
-                                <li><i class="fab fa-google-play"></i> Play Store</li>
-                                <li><i class="fab fa-app-store"></i> Apple Store</li>
-                            </ul>
-                            <p><strong>Partners:</strong></p>
-                            <div class="icon-box">
-                                <img src="img/portfolio/progetto_adda/partners/Micron_Technology_logo.svg.png">
-                                <img src="img/portfolio/progetto_adda/partners/logo_polimi.png">
-                                <img src="img/portfolio/progetto_adda/partners/fpo_logo_rgb.png">
-                                <img src="img/portfolio/progetto_adda/partners/marconi.png">
-                            </div>
-                            <p class="mt-3"><i>Altri partners: Liceo Lussana Bergamo, Ecomuseo Adda di Leonardo</i></p>
-                            
-                            <a href="https://www.fondazionepolitecnico.it/progetti/stem/ladda-di-leonardo/" target="blank">Fondazione Politecnico di Milano</a><br/>
-                            <a href="https://www.ecomuseoaddadileonardo.it/adda-di-leonardo/" target="blank">EcoMuseo Adda di Leonardo</a>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="img/portfolio/progetto_adda/app-mockup.jpg" class="img-fluid"/>
-                        </div>
+                        <h3>portfolio</h3>
+                        <p>Ecco alcuni progetti che ho realizzato in Alternanza scuola-lavoro durante la mia esperienza scolastica. Sono molto soddisfatto e orgoglioso dei progetti che ho realizzato ed è grazie a loro se ho acquisito le competenze che ho ora!</p>
                     </div>
-                    
+                    <article class="progetto">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h4>Adda di Leonardo</h4>
+                                <p>Progetto PCTO sviluppato insieme a un team di 3 sviluppatori. L'obiettivo era quello
+                                    di
+                                    sviluppare un'applicazione multipiattaforma per dispositivi mobili in grado di
+                                    fruire
+                                    contenuti testuali visivi ed audiovisi, riguardanti il percorso di Leonardo da Vinci
+                                    sul
+                                    Fiume Adda.<br />
+                                    Nel progetto ho avuto il ruolo, oltre che sviluppatore full-stack, di team leader.
+                                    Mi
+                                    sono occupato di organizzare il progetto e di interfacciarmi con i
+                                    committenti.<br />
+                                    Avendo terminato gli studi a scuola, attualmente l'app è mantenuta da un'azienda
+                                    associata al progetto. </p>
+                                <div class="icon-box">
+                                    <a href="https://play.google.com/store/apps/details?id=com.magneticmedia.addadileonardo"
+                                        target="blank"><img
+                                            src="img/portfolio/progetto_adda/get-it-on-google-play-badge.png"
+                                            height="60"></a>
+                                    <a href="https://apps.apple.com/it/app/adda-di-leonardo/id1536553448"
+                                        target="blank"><img src="img/portfolio/progetto_adda/apple-store.png"
+                                            height="60"></a>
+                                </div>
+                                <p class="mt-3"><strong>Partners:</strong></p>
+                                <div class="icon-box">
+                                    <a href="http://www.micron.com" target="blank"><img
+                                            src="img/portfolio/progetto_adda/partners/Micron_Technology_logo.svg.png"></a>
+                                    <a href="http://www.dipartimentodesign.polimi.it/" target="blank"><img
+                                            src="img/portfolio/progetto_adda/partners/logo_polimi.png"></a>
+                                    <a href="https://www.fondazionepolitecnico.it/progetti/stem/ladda-di-leonardo/"
+                                        target="blank"><img
+                                            src="img/portfolio/progetto_adda/partners/fpo_logo_rgb.png"></a>
+                                    <a href="https://itisdalmine.edu.it/" target="blank"><img
+                                            src="img/portfolio/progetto_adda/partners/marconi.png"></a>
+                                </div>
+                                <p class="mt-3"><i>Altri partners: Liceo Lussana Bergamo, <a class="link" target="blank"
+                                            href="https://www.ecomuseoaddadileonardo.it/adda-di-leonardo/">Ecomuseo Adda
+                                            di Leonardo</a></i>
+                                </p>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="img/portfolio/progetto_adda/app-mockup.jpg" class="img-fluid" />
+                            </div>
+                        </div>
+                    </article>
+                    <article class="progetto">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="img/portfolio/progetto_auser/mockup.png" class="img-fluid" />
+                            </div>
+                            <div class="col-md-8">
+                                <h4>Associazione Auser Dalmine</h4>
+                                <p>L'obiettivo del progetto PCTO era quello di realizzare un software gestionale desktop
+                                    per l'associazione Auser di Dalmine in grado di gestire i volontari e gli assistiti
+                                    dell'associazione.<br />
+                                    Il software è stato sviluppato con C# .NET e un database SQL.</p>
+                                <p><strong>Partners:</strong></p>
+                                <div class="icon-box">
+                                    <a href="https://www.fondazionepolitecnico.it/" target="blank"><img
+                                            src="img/portfolio/progetto_auser/logo_auser.png"></a>
+                                    <a href="https://itisdalmine.edu.it/" target="blank"><img
+                                            src="img/portfolio/progetto_adda/partners/marconi.png"></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </article>
+                    <p class="text-center">E tanti altri progetti "just for fun"...</p>
                 </div>
             </section>
+
         </div>
+        <aside>
+            <div class="bg-white inverted-border-radius-w">
+                <section class="section-4 container">
+                    <span class="anchor" id="contatti"></span>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="img/shape-4.svg" class="shape-3">
+                            <h3>Contattami</h3>
+                            <p>Contattami pure al mio indirizzo e-mail o sui miei social.<br /> Oppure mandami un
+                                messaggio con
+                                il form qui accanto!</p>
+                            <div class="icon-box">
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-github"></i></a>
+                            </div>
+                            <div class="icon-box">
+                                <a href="mailto: abc@example.com"><i class="far fa-envelope"></i>
+                                    troccoloandrea01@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-card">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" autocomplete="off">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="nome" class="form-label">Nome</label>
+                                        <input type="text" class="form-control" autocomplete="off">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="nome" class="form-label">Messaggio</label>
+                                        <textarea class="form-control"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Invia</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </section>
+            </div>
+        </aside>
     </main>
     <footer>
         <div style="height: 300px;">
