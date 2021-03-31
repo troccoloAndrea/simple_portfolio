@@ -1,2 +1,2 @@
-# simple_portfolio
-simple personal site in html and css for Start2Impact project
+# Andrea Troccolo - personal portfolio
+This is a simple personal portfolio developed in html, css and a few lines of javascript.
