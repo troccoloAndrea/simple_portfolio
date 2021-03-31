@@ -451,6 +451,18 @@ footer span {
 .icon-box > img:hover{
     transform: scale(1.1);
 }
+@media (min-width: 2000px) {
+    .shape-2-abs {
+        position: absolute;
+        width: 30%;
+        top: -10%;
+        left: -7%;
+        z-index: 0;
+        transform: rotate(
+    80deg
+    );
+    }
+}
 
 /** For tablet devices **/
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -489,6 +501,19 @@ footer span {
 
 .section-3 .wrap-rev {
     flex-wrap: wrap-reverse;
+}
+
+@media (max-width: 1400px){
+    .shape-2-abs {
+        position: absolute;
+        width: 40%;
+        top: 2%;
+        left: -7%;
+        z-index: 0;
+        transform: rotate(
+    80deg
+    );
+    }
 }
 
 @media (max-width: 1200px) {
