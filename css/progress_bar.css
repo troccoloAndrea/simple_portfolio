@@ -59,10 +59,10 @@
     width: 80%;
   }
   .bar .progress-line.js span{
-    width: 70%;
+    width: 65%;
   }
   .bar .progress-line.react span{
-    width: 70%;
+    width: 60%;
   }
   .bar .progress-line.csharp span{
     width: 65%;
@@ -114,10 +114,10 @@
     content: "80%";
   }
   .bar .progress-line.js span::after{
-    content: "70%";
+    content: "65%";
   }
   .bar .progress-line.react span::after{
-    content: "70%";
+    content: "60%";
   }
   .bar .progress-line.csharp span::after{
     content: "65%";

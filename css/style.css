@@ -50,6 +50,9 @@ h4 {
     border-radius: 25px;
     transition: 0.3s;
 }
+.card .btn-blu{
+    background-color: #3646e5;
+}
 
 .btn-blu:hover {
     background-color: #fff;
@@ -122,12 +125,14 @@ main {
 }
 
 .jumbotron p,
-.card p {
+.card p,
+.section-servizi p {
     color: #eef0ff;
     margin-top: 20px;
     font-size: 0.9rem;
     line-height: 2;
 }
+
 
 .jumbotron img {
     display: block;
@@ -146,7 +151,7 @@ main {
     color: #eef0ff !important;
     margin-right: 20px;
     font-size: 1.2rem;
-
+    transition: 0.3s;;
 }
 
 .section-1 {
@@ -287,14 +292,21 @@ section .shape-4 {
     padding: 30px 30px 30px 30px;
     margin: 20px 10px 20px 10px;
 
-    -webkit-box-shadow: 0px 27px 85px -30px rgba(66, 66, 66, 1);
-    -moz-box-shadow: 0px 27px 85px -30px rgba(66, 66, 66, 1);
-    box-shadow: 0px 27px 85px -30px rgba(66, 66, 66, 1);
+    -webkit-box-shadow: 0px 44px 43px -12px rgba(20,31,133,1);
+-moz-box-shadow: 0px 44px 43px -12px rgba(20,31,133,1);
+box-shadow: 0px 44px 43px -12px rgba(20,31,133,1);
     cursor: default;
+    
+}
+.service-card > h3 > i{
+    transition:0.3s;
 }
 
 .service-card:hover {
     background-color: #1C2AAF;
+}
+.service-card:hover > h3 > i{
+    transform: scale(1.1);
 }
 
 .service-card h3 {
@@ -311,7 +323,7 @@ section .shape-4 {
 .bg-whitesmoke .icon-box img {
     height: 40px;
     margin-right: 20px;
-
+    transition:0.3s;
 }
 
 .align-right {
@@ -363,6 +375,7 @@ footer .icon-box a {
     margin-left: 10px;
     font-size: 1.2rem;
     color: rgb(238, 240, 255) !important;
+    transition: 0.3s;
 }
 
 footer p {
@@ -434,6 +447,11 @@ footer span {
     fill: #FFFFFF;
 }
 
+.icon-box > a:hover,
+.icon-box > img:hover{
+    transform: scale(1.1);
+}
+
 /** For tablet devices **/
 @media (min-width: 768px) and (max-width: 1023px) {
     .custom-shape-divider-top-1617109964 svg {
@@ -444,31 +462,18 @@ footer span {
 
 #topButton {
     display: none;
-    /* Hidden by default */
     position: fixed;
-    /* Fixed/sticky position */
     bottom: 20px;
-    /* Place the button at the bottom of the page */
     right: 30px;
-    /* Place the button 30px from the right */
     z-index: 99;
-    /* Make sure it does not overlap */
     border: none;
-    /* Remove borders */
     outline: none;
-    /* Remove outline */
     background-color: transparent;
-    /* Set a background color */
     color: white;
-    /* Text color */
     cursor: pointer;
-    /* Add a mouse pointer on hover */
     padding: 15px;
-    /* Some padding */
     border-radius: 10px;
-    /* Rounded corners */
     font-size: 18px;
-    /* Increase font size */
     color: #5c6086;
     transition: 0.5s;
 }
@@ -479,7 +484,6 @@ footer span {
 
 #topButton:hover>i {
     color: #5c6086;
-    /* Add a dark-grey background on hover */
     transform: scale(1.1);
 }
 
@@ -549,8 +553,6 @@ footer span {
     }
 
     @media (max-width: 600px) {
-
-
         h1,
         h2,
         h3,
@@ -561,21 +563,16 @@ footer span {
             letter-spacing: 1px;
             line-height: 1.4;
         }
-
         h3 {
             font-size: 2rem;
         }
-
         h4 {
             font-size: 1.5rem;
         }
-
-
         .card {
             width: 90%;
             padding: 25px 25px 25px 25px;
         }
-
         .shape-2-abs {
             position: absolute;
             width: 40%;
@@ -584,29 +581,23 @@ footer span {
             z-index: 0;
             transform: rotate(80deg);
         }
-
         .section-1 {
             padding: 120px 0px 0px 0px;
         }
-
-
         .bg-whitesmoke .icon-box img {
             height: 40px;
             margin-right: 20px;
             margin-top: 20px;
-
+            transition: 0.3s;
         }
-
         .row>div {
             margin-top: 20px;
             margin-bottom: 20px;
         }
-
         .align-right p {
             width: 100%;
             display: inline-block;
         }
-
         .shape-3-abs {
             position: absolute;
             width: 32%;
@@ -614,13 +605,15 @@ footer span {
             bottom: -9%;
             left: -13%;
         }
-
         .progetto {
             margin-top: 20px;
             margin-bottom: 20px;
         }
-
         .bg-white {
             padding-bottom: 0px !important;
+        }
+        #topButton{
+            right: 0px;
+            bottom: 0px;
         }
     }
